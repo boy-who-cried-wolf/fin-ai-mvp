@@ -13,6 +13,13 @@
 
 FinAI MVP is an intelligent financial advisory system that leverages artificial intelligence to provide personalized financial guidance. The system integrates Yodlee transaction data with AI-powered analysis to deliver actionable financial insights and recommendations.
 
+## 📸 Preview
+
+<div align="center">
+  <img src="docs/images/preview.png" alt="FinAI MVP Preview" width="800"/>
+  <p><em>FinAI MVP - Intelligent Financial Advisory Dashboard</em></p>
+</div>
+
 ## ✨ Features
 
 - **AI-Powered Financial Analysis**
@@ -33,6 +40,13 @@ FinAI MVP is an intelligent financial advisory system that leverages artificial 
   - Responsive design with Tailwind CSS
   - Real-time financial dashboard
   - Interactive financial insights
+
+## 📸 Preview
+
+<div align="center">
+  <img src="docs/images/fin-ai-mvp.png" alt="FinAI MVP Preview" width="800"/>
+  <p><em>FinAI MVP - Intelligent Financial Advisory Dashboard</em></p>
+</div>
 
 ## 🛠️ Tech Stack
 
