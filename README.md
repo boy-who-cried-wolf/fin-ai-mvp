@@ -1,45 +1,170 @@
-# Australian Financial Adviser AI
+# 🚀 FinAI MVP - Intelligent Financial Advisory System
 
-An AI-powered financial advisory system that analyzes transaction data, applies Australian financial laws, and generates tax optimization and retirement planning strategies.
+<div align="center">
 
-## Project Structure
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/boy-who-cried-wolf/fin-ai-mvp/blob/main/LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
 
-The project is divided into three main components:
+</div>
 
-1. **AI/ML Model** (`packages/ai`) - Trained on Australian financial regulations
-2. **Backend** (`packages/backend`) - NestJS application handling data processing and API
-3. **Frontend** (`packages/frontend`) - React + TypeScript + TailwindCSS interface
+## 📋 Overview
 
-## Prerequisites
+FinAI MVP is an intelligent financial advisory system that leverages artificial intelligence to provide personalized financial guidance. The system integrates Yodlee transaction data with AI-powered analysis to deliver actionable financial insights and recommendations.
 
-- Node.js >= 18.0.0
-- pnpm >= 8.0.0
-- Python 3.9+ (for AI/ML component)
-- Docker (optional, for development)
+## ✨ Features
 
-## Getting Started
+- **AI-Powered Financial Analysis**
+  - Transaction categorization and analysis
+  - Spending pattern recognition
+  - Personalized financial recommendations
+  - Natural language financial insights
+  - Real-time financial data processing
 
-1. Install dependencies:
+- **Data Integration**
+  - Yodlee API integration for transaction data
+  - Secure data handling and processing
+  - Real-time financial data analysis
+  - Automated transaction categorization
+
+- **User Experience**
+  - Modern React-based interface
+  - Responsive design with Tailwind CSS
+  - Real-time financial dashboard
+  - Interactive financial insights
+
+## 🛠️ Tech Stack
+
+- **AI Component**
+  - Python 3.9+
+  - FastAPI
+  - Machine Learning models
+
+- **Frontend**
+  - TypeScript
+  - React
+  - Tailwind CSS
+  - Vite
+
+- **Backend**
+  - NestJS
+  - TypeScript
+  - RESTful API
+  - PostgreSQL
+
+- **Development Tools**
+  - pnpm (Package Manager)
+  - ESLint
+  - Prettier
+  - Git
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- Python 3.9+
+- pnpm (v8 or higher)
+- Git
+
+### Installation
+
+1. Clone the repository:
    ```bash
+   git clone https://github.com/boy-who-cried-wolf/fin-ai-mvp.git
+   cd fin-ai-mvp
+   ```
+
+2. Install dependencies:
+   ```bash
+   # Install root dependencies
+   pnpm install
+
+   # Install AI component dependencies
+   cd packages/ai
+   pip install -r requirements.txt
+   pip install -r requirements-dev.txt
+
+   # Install frontend dependencies
+   cd ../frontend
+   pnpm install
+
+   # Install backend dependencies
+   cd ../backend
    pnpm install
    ```
 
-2. Set up environment variables:
-   - Copy `.env.example` to `.env` in each package directory
-   - Fill in the required environment variables
-
-3. Start development servers:
+3. Set up environment variables:
    ```bash
-   # Start all components
-   pnpm run dev:frontend
-   pnpm run dev:backend
-   pnpm run dev:ai
+   # Copy and configure environment files
+   cp packages/ai/.env.example packages/ai/.env
+   cp packages/frontend/.env.example packages/frontend/.env
+   cp packages/backend/.env.example packages/backend/.env
    ```
 
-## Development
+4. Start the development servers:
+   ```bash
+   # Start AI service
+   cd packages/ai
+   python main.py
 
-Each package has its own development setup and documentation. Please refer to the respective package's README for more details.
+   # Start backend service
+   cd ../backend
+   pnpm dev
 
-## License
+   # Start frontend service
+   cd ../frontend
+   pnpm dev
+   ```
 
-MIT 
+## 📁 Project Structure
+
+```
+fin-ai-mvp/
+├── packages/
+│   ├── ai/              # AI/ML component
+│   │   ├── src/        # Source code
+│   │   ├── tests/      # Test files
+│   │   └── main.py     # Entry point
+│   ├── frontend/       # React frontend
+│   │   ├── src/        # Source code
+│   │   └── public/     # Static assets
+│   └── backend/        # NestJS backend
+│       └── src/        # Source code
+├── package.json        # Root package configuration
+└── pnpm-workspace.yaml # Workspace configuration
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👨‍💻 Author
+
+- **Rowell Camero** - [@boy-who-cried-wolf](https://github.com/boy-who-cried-wolf)
+- **Email**: hdreamdev@gmail.com
+
+## 🙏 Acknowledgments
+
+- Yodlee API for financial data integration
+- Open-source community for various tools and libraries
+- Contributors and supporters of the project
+
+---
+
+<div align="center">
+  
+Made with ❤️ by [Rowell Camero](https://github.com/boy-who-cried-wolf)
+
+</div> 
