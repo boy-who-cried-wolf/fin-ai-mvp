@@ -16,7 +16,7 @@ FinAI MVP is an intelligent financial advisory system that leverages artificial 
 ## 📸 Preview
 
 <div align="center">
-  <img src="docs/images/preview.png" alt="FinAI MVP Preview" width="800"/>
+  <img src="docs/images/fin-ai-mvp.png" alt="FinAI MVP Preview" width="800"/>
   <p><em>FinAI MVP - Intelligent Financial Advisory Dashboard</em></p>
 </div>
 
@@ -40,13 +40,6 @@ FinAI MVP is an intelligent financial advisory system that leverages artificial 
   - Responsive design with Tailwind CSS
   - Real-time financial dashboard
   - Interactive financial insights
-
-## 📸 Preview
-
-<div align="center">
-  <img src="docs/images/fin-ai-mvp.png" alt="FinAI MVP Preview" width="800"/>
-  <p><em>FinAI MVP - Intelligent Financial Advisory Dashboard</em></p>
-</div>
 
 ## 🛠️ Tech Stack
 
